@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" aria-label="Piccolo">
+  <defs>
+    <linearGradient id="picSkin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#93ee66"/><stop offset=".55" stop-color="#48b43f"/><stop offset="1" stop-color="#237531"/></linearGradient>
+    <linearGradient id="picPurple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8855d0"/><stop offset=".6" stop-color="#5a3195"/><stop offset="1" stop-color="#311758"/></linearGradient>
+    <linearGradient id="picBlue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ec4ff"/><stop offset="1" stop-color="#2451b6"/></linearGradient>
+    <linearGradient id="picCape" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".65" stop-color="#d8dfef"/><stop offset="1" stop-color="#9fa8ba"/></linearGradient>
+    <linearGradient id="picRed" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff95a8"/><stop offset="1" stop-color="#b23e5e"/></linearGradient>
+  </defs>
+  <g stroke="#10131b" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="120" cy="246" rx="74" ry="10" fill="#000" opacity=".22" stroke="none"/>
+    <path d="M84 103 C58 110 43 130 40 160 L35 217 65 233 83 176 98 128Z" fill="url(#picCape)"/>
+    <path d="M156 103 C182 110 197 130 200 160 L205 217 175 233 157 176 142 128Z" fill="url(#picCape)"/>
+    <path d="M80 99 C91 87 102 82 120 82 C138 82 149 87 160 99 L171 122 C155 126 140 128 120 128 C100 128 85 126 69 122Z" fill="url(#picCape)"/>
+    <path d="M110 168 C96 177 85 190 75 208 L60 232 83 241 105 215 119 188Z" fill="url(#picPurple)"/>
+    <path d="M130 168 C144 177 155 190 165 208 L180 232 157 241 135 215 121 188Z" fill="url(#picPurple)"/>
+    <path d="M77 226 60 221 48 234 54 243 86 242Z" fill="#9b6a33"/>
+    <path d="M163 226 180 221 192 234 186 243 154 242Z" fill="#9b6a33"/>
+    <path d="M89 104 C77 111 72 124 74 141 L82 173 C95 183 107 187 120 187 C133 187 145 183 158 173 L166 141 C168 124 163 111 151 104 L138 98 102 98Z" fill="url(#picPurple)"/>
+    <path d="M87 161 C98 165 110 167 120 167 C130 167 142 165 153 161 L152 178 C140 183 131 185 120 185 C109 185 100 183 88 178Z" fill="url(#picBlue)"/>
+    <path d="M86 112 C67 118 56 132 52 149 L48 168 C45 178 55 184 63 178 L75 157 90 142Z" fill="url(#picPurple)"/>
+    <path d="M154 112 C173 118 184 132 188 149 L192 168 C195 178 185 184 177 178 L165 157 150 142Z" fill="url(#picPurple)"/>
+    <path d="M52 145 C41 138 30 141 24 150 C19 159 22 169 31 173 C39 177 48 173 53 166 L60 154Z" fill="url(#picSkin)"/>
+    <path d="M188 145 C199 138 210 141 216 150 C221 159 218 169 209 173 C201 177 192 173 187 166 L180 154Z" fill="url(#picSkin)"/>
+    <path d="M81 119 C77 128 77 137 82 147 M159 119 C163 128 163 137 158 147" fill="none" opacity=".55"/>
+    <path d="M73 131 C81 126 89 125 97 129 C96 138 92 145 86 151 C79 150 74 143 73 131Z" fill="url(#picRed)"/>
+    <path d="M167 131 C159 126 151 125 143 129 C144 138 148 145 154 151 C161 150 166 143 167 131Z" fill="url(#picRed)"/>
+    <path d="M106 100 108 88 132 88 134 100 120 113Z" fill="url(#picSkin)"/>
+    <path d="M88 50 C90 31 103 20 120 20 C137 20 150 31 152 50 L149 79 C147 97 135 109 120 109 C105 109 93 97 91 79Z" fill="url(#picSkin)"/>
+    <path d="M91 59 C80 55 75 67 81 77 C84 82 89 84 95 81 M149 59 C160 55 165 67 159 77 C156 82 151 84 145 81" fill="url(#picSkin)"/>
+    <path d="M98 26 C102 14 111 8 120 8 C129 8 138 14 142 26 L148 51 92 51Z" fill="url(#picCape)"/>
+    <path d="M98 19 142 19 M96 26 144 26 M94 34 146 34 M92 42 148 42" fill="none" stroke="#8d95a9"/>
+    <ellipse cx="120" cy="18" rx="20" ry="10" fill="#8f7be1"/>
+    <path d="M94 45 82 34 89 54 M146 45 158 34 151 54" fill="url(#picSkin)"/>
+    <path d="M102 61 C108 57 114 57 119 61 M138 61 C132 57 126 57 121 61" fill="none"/>
+    <path d="M99 67 C105 63 111 63 116 67 C112 72 105 72 99 67Z M141 67 C135 63 129 63 124 67 C128 72 135 72 141 67Z" fill="#fff"/>
+    <circle cx="111" cy="68" r="2.2" fill="#10131b" stroke="none"/><circle cx="133" cy="68" r="2.2" fill="#10131b" stroke="none"/>
+    <path d="M120 73 116 83 122 84" fill="none"/>
+    <path d="M106 92 C114 97 126 97 134 92" fill="none"/>
+    <path d="M95 111 88 141 M145 111 152 141" fill="none" stroke="#f092ba" opacity=".65"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" aria-label="Goku">
+<defs>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd0aa"/><stop offset=".55" stop-color="#eda06e"/><stop offset="1" stop-color="#c96b42"/></linearGradient>
+<linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffac35"/><stop offset=".55" stop-color="#f36b1d"/><stop offset="1" stop-color="#b93c14"/></linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2788f4"/><stop offset="1" stop-color="#092b7d"/></linearGradient>
+</defs>
+<g stroke="#10131b" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+
+<ellipse cx="120" cy="242" rx="76" ry="10" fill="#000" opacity=".28" stroke="none"/>
+<!-- back arm -->
+<path d="M85 116 C66 116 54 127 48 144 L38 165 C34 174 43 181 51 176 L66 153 87 141Z" fill="url(#orange)"/>
+<path d="M48 143 C38 136 27 136 20 143 C14 150 16 160 23 166 C31 172 40 169 46 161 L55 150Z" fill="url(#skin)"/>
+<path d="M22 145 C17 147 14 152 16 157 M29 142 C25 148 24 155 28 162 M36 143 C33 149 34 156 39 160" fill="none"/>
+<!-- rear leg -->
+<path d="M130 165 C143 169 158 178 171 194 L189 222 166 235 141 207 114 186Z" fill="url(#orange)"/>
+<path d="M165 222 189 215 203 229 197 241 160 240Z" fill="url(#blue)"/>
+<path d="M170 224 194 232" fill="none" opacity=".65"/>
+<!-- front leg -->
+<path d="M111 164 C96 170 83 181 72 197 L50 226 73 239 101 211 126 184Z" fill="url(#orange)"/>
+<path d="M73 223 49 218 34 231 40 242 78 241Z" fill="url(#blue)"/>
+<path d="M69 225 44 234" fill="none" opacity=".65"/>
+<!-- torso -->
+<path d="M88 104 C76 109 70 121 72 138 L82 172 C95 181 106 184 120 184 C134 184 146 181 158 172 L168 138 C170 121 164 109 152 104 L139 97 101 97Z" fill="url(#orange)"/>
+<path d="M100 99 120 119 140 99 149 106 138 138 102 138 91 106Z" fill="url(#blue)"/>
+<path d="M102 137 120 151 138 137" fill="none"/>
+<path d="M86 164 C107 172 133 172 154 164 L152 178 C132 187 107 187 87 178Z" fill="url(#blue)"/>
+<path d="M120 151 120 181 M96 149 86 168 M144 149 154 168" fill="none" opacity=".6"/>
+<!-- front arm -->
+<path d="M154 112 C172 115 184 128 188 145 L193 164 C195 173 187 180 178 175 L165 153 148 139Z" fill="url(#orange)"/>
+<path d="M187 143 C197 137 208 138 215 146 C220 154 217 164 209 169 C201 174 192 170 187 162 L180 151Z" fill="url(#skin)"/>
+<path d="M215 148 C219 151 220 156 217 161 M207 144 C212 151 211 158 207 165 M199 144 C203 150 202 158 197 162" fill="none"/>
+<!-- neck/head -->
+<path d="M106 101 108 89 132 89 134 102 120 113Z" fill="url(#skin)"/>
+<path d="M88 48 C89 28 103 17 120 17 C137 17 152 29 153 50 L150 78 C148 96 136 108 120 108 C104 108 92 96 90 78Z" fill="url(#skin)"/>
+<path d="M91 57 C80 52 75 66 81 76 C84 81 88 83 94 80 M150 57 C161 52 166 66 160 76 C157 81 153 83 147 80" fill="url(#skin)"/>
+<!-- hair -->
+<path d="M91 59 75 44 91 43 81 24 101 34 104 9 119 28 132 3 136 29 158 12 151 38 172 31 156 52 151 63 142 44 135 64 125 39 114 63 104 42 96 64Z" fill="#101218"/>
+<path d="M101 33 110 14 M132 31 145 15 M151 39 164 34" stroke="#313642" fill="none"/>
+<!-- face -->
+<path d="M96 66 C104 61 111 62 117 66 M144 66 C136 61 129 62 123 66" fill="none"/>
+<path d="M98 70 C104 66 111 66 116 71 C111 76 104 76 98 70Z M142 70 C136 66 129 66 124 71 C129 76 136 76 142 70Z" fill="#fff"/>
+<circle cx="109" cy="71" r="2.3" fill="#10131b" stroke="none"/><circle cx="131" cy="71" r="2.3" fill="#10131b" stroke="none"/>
+<path d="M120 74 116 84 122 84 M108 94 C116 100 124 100 133 93" fill="none"/>
+<path d="M108 90 C114 92 126 92 132 89" stroke="#8e3f35" fill="none"/>
+<!-- chest emblem -->
+<circle cx="105" cy="145" r="8" fill="#f7e3c4"/><path d="M101 145h8M105 141v8" stroke="#2b477d" stroke-width="2"/>
+<!-- highlights -->
+<path d="M91 113 C84 129 87 145 92 156 M151 113 C158 129 155 146 150 157 M81 200 C91 192 100 187 110 184 M159 201 C149 192 141 187 131 184" fill="none" stroke="#ffca68" opacity=".6"/>
+
+</g>
+</svg>

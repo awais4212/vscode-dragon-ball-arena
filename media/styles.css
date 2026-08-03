@@ -1,0 +1,205 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--vscode-foreground);
+  background: var(--vscode-sideBar-background);
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  overflow-x: hidden;
+}
+
+.app {
+  display: grid;
+  gap: 9px;
+  padding: 8px;
+  width: 100%;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+h1 {
+  margin: 0;
+  color: var(--vscode-foreground);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.title-row p {
+  margin: 2px 0 0;
+  color: var(--vscode-descriptionForeground);
+  font-size: 10px;
+}
+
+.status-pill {
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border: 1px solid var(--vscode-widget-border, var(--vscode-panel-border));
+  border-radius: 999px;
+  color: var(--vscode-descriptionForeground);
+  background: var(--vscode-badge-background);
+  font-size: 10px;
+}
+
+.pickers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.pickers label {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.pickers label span {
+  color: var(--vscode-descriptionForeground);
+  font-size: 10px;
+}
+
+.field-picker {
+  grid-column: 1 / -1;
+}
+
+select {
+  min-width: 0;
+  width: 100%;
+  height: 25px;
+  border: 1px solid var(--vscode-dropdown-border, var(--vscode-widget-border));
+  border-radius: 3px;
+  color: var(--vscode-dropdown-foreground);
+  background: var(--vscode-dropdown-background);
+  font: inherit;
+  font-size: 11px;
+  outline: none;
+}
+
+select:focus {
+  border-color: var(--vscode-focusBorder);
+}
+
+.canvas-wrap {
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid var(--vscode-widget-border, var(--vscode-panel-border));
+  border-radius: 5px;
+  background: #0b1020;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr;
+  gap: 6px;
+}
+
+button {
+  min-width: 0;
+  height: 27px;
+  border: 1px solid var(--vscode-button-border, transparent);
+  border-radius: 3px;
+  color: var(--vscode-button-secondaryForeground);
+  background: var(--vscode-button-secondaryBackground);
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--vscode-button-secondaryHoverBackground);
+}
+
+button:focus-visible {
+  outline: 1px solid var(--vscode-focusBorder);
+  outline-offset: 1px;
+}
+
+button.primary {
+  color: var(--vscode-button-foreground);
+  background: var(--vscode-button-background);
+}
+
+button.primary:hover {
+  background: var(--vscode-button-hoverBackground);
+}
+
+button:disabled,
+select:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.battle-log {
+  min-height: 57px;
+  padding: 6px 7px;
+  border-left: 2px solid var(--vscode-focusBorder);
+  border-radius: 2px;
+  background: var(--vscode-textBlockQuote-background, var(--vscode-editor-background));
+}
+
+.log-heading {
+  margin-bottom: 3px;
+  color: var(--vscode-descriptionForeground);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#logLines {
+  display: grid;
+  gap: 2px;
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.log-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.log-line.attack {
+  color: var(--vscode-terminal-ansiBrightCyan, #5ee7ff);
+}
+
+.log-line.hit {
+  color: var(--vscode-terminal-ansiBrightYellow, #ffe06a);
+}
+
+.log-line.win {
+  color: var(--vscode-terminal-ansiBrightGreen, #62e88e);
+}
+
+@media (max-width: 230px) {
+  .pickers {
+    grid-template-columns: 1fr;
+  }
+
+  .field-picker {
+    grid-column: auto;
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}

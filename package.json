@@ -1,0 +1,55 @@
+{
+  "name": "dragon-ball-arena-final-facing-fixed",
+  "displayName": "Dragon Ball Arena \u2014 Final Facing Fixed",
+  "description": "Compact animated VS Code arena with inward-facing Goku, Vegeta, Broly, Gohan, Frieza, Trunks and Piccolo fighters, smooth battle animations, HP, rounds and effects.",
+  "version": "2.1.0",
+  "publisher": "local-dev",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onView:dragonBallArena.view",
+    "onCommand:dragonBallArena.reset"
+  ],
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "type": "webview",
+          "id": "dragonBallArena.view",
+          "name": "Dragon Ball Arena",
+          "icon": "media/dragonball.svg",
+          "visibility": "visible"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "dragonBallArena.reset",
+        "title": "Dragon Ball Arena: Reset Match",
+        "icon": "$(debug-restart)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "dragonBallArena.reset",
+          "when": "view == dragonBallArena.view",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

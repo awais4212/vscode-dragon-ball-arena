@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" aria-label="Broly">
+  <defs>
+    <linearGradient id="broSkin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd5ad"/><stop offset=".55" stop-color="#eca16e"/><stop offset="1" stop-color="#b05e3d"/></linearGradient>
+    <linearGradient id="broHair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#262b33"/><stop offset="1" stop-color="#0a0b10"/></linearGradient>
+    <linearGradient id="broArmor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d313a"/><stop offset="1" stop-color="#0f1218"/></linearGradient>
+    <linearGradient id="broGreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9af23e"/><stop offset=".55" stop-color="#54b41e"/><stop offset="1" stop-color="#1f6b0f"/></linearGradient>
+    <linearGradient id="broPurple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9256d5"/><stop offset=".6" stop-color="#6430a0"/><stop offset="1" stop-color="#391a63"/></linearGradient>
+  </defs>
+  <g stroke="#10131b" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="120" cy="246" rx="78" ry="10" fill="#000" opacity=".22" stroke="none"/>
+    <path d="M109 166 C95 171 84 184 74 202 L60 230 82 241 104 214 117 186Z" fill="url(#broPurple)"/>
+    <path d="M131 166 C145 171 156 184 166 202 L180 230 158 241 136 214 123 186Z" fill="url(#broPurple)"/>
+    <path d="M79 226 61 222 51 233 57 242 88 241Z" fill="#f2f5ff"/>
+    <path d="M161 226 179 222 189 233 183 242 152 241Z" fill="#f2f5ff"/>
+    <path d="M86 232 60 232 M154 232 180 232" fill="none" stroke="#7cd74c" opacity=".65"/>
+    <path d="M83 160 C95 173 106 178 120 178 C134 178 145 173 157 160 L170 176 160 189 142 184 150 199 132 194 139 207 120 198 101 207 108 194 90 199 98 184 80 189 70 176Z" fill="url(#broGreen)"/>
+    <path d="M100 162 C106 169 113 172 120 172 C127 172 134 169 140 162" fill="none" stroke="#d4e6a2" opacity=".55"/>
+    <path d="M84 102 C71 109 66 121 69 140 L77 164 C90 173 103 177 120 177 C137 177 150 173 163 164 L171 140 C174 121 169 109 156 102 L143 96 97 96Z" fill="url(#broArmor)"/>
+    <path d="M92 101 C95 80 105 67 120 67 C135 67 145 80 148 101 L141 126 C135 133 128 137 120 137 C112 137 105 133 99 126Z" fill="url(#broSkin)"/>
+    <path d="M85 100 99 92 120 95 141 92 155 100 151 121 120 126 89 121Z" fill="url(#broArmor)"/>
+    <ellipse cx="120" cy="120" rx="20" ry="14" fill="#43a51f"/>
+    <path d="M76 122 C84 110 94 104 107 101 M164 122 C156 110 146 104 133 101" fill="none" stroke="#8fb39c" opacity=".55"/>
+    <path d="M97 96 120 118 143 96" fill="none" stroke="#c6cedc" opacity=".55"/>
+    <path d="M81 108 C59 114 46 129 41 149 L38 166 C36 176 45 183 54 178 L66 156 84 141Z" fill="url(#broSkin)"/>
+    <path d="M159 108 C181 114 194 129 199 149 L202 166 C204 176 195 183 186 178 L174 156 156 141Z" fill="url(#broSkin)"/>
+    <path d="M41 145 C31 138 21 140 15 148 C11 156 14 166 22 171 C30 175 40 171 45 164 L51 153Z" fill="url(#broSkin)"/>
+    <path d="M199 145 C209 138 219 140 225 148 C229 156 226 166 218 171 C210 175 200 171 195 164 L189 153Z" fill="url(#broSkin)"/>
+    <path d="M60 157 52 175 70 181 77 164Z" fill="url(#broArmor)"/>
+    <path d="M180 157 188 175 170 181 163 164Z" fill="url(#broArmor)"/>
+    <path d="M104 96 106 84 134 84 136 96 120 110Z" fill="url(#broSkin)"/>
+    <path d="M88 48 C90 29 103 18 120 18 C137 18 150 30 152 49 L149 80 C147 98 135 110 120 110 C105 110 93 98 91 80Z" fill="url(#broSkin)"/>
+    <path d="M94 59 C102 54 110 55 116 60 M146 59 C138 54 130 55 124 60" fill="none"/>
+    <path d="M98 65 C105 61 111 61 116 66 C111 72 104 72 98 65Z M142 65 C135 61 129 61 124 66 C129 72 135 72 142 65Z" fill="#fff"/>
+    <circle cx="111" cy="66" r="2.2" fill="#10131b" stroke="none"/><circle cx="133" cy="66" r="2.2" fill="#10131b" stroke="none"/>
+    <path d="M120 70 116 82 122 83" fill="none"/>
+    <path d="M105 91 C112 98 127 98 135 91" fill="none"/>
+    <path d="M92 58 76 43 88 42 79 27 96 33 100 11 116 26 124 6 133 26 148 11 144 32 161 27 152 42 166 44 149 58 142 69 135 53 128 70 120 49 112 70 105 53 98 69Z" fill="url(#broHair)"/>
+    <path d="M102 32 110 16 M128 28 138 14 M148 34 156 30" fill="none" stroke="#4a515e" opacity=".7"/>
+  </g>
+</svg>

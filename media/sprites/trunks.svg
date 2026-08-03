@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" aria-label="Trunks">
+<defs>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd2ae"/><stop offset=".58" stop-color="#efaa78"/><stop offset="1" stop-color="#c96d49"/></linearGradient>
+  <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5a8bff"/><stop offset=".62" stop-color="#3158ba"/><stop offset="1" stop-color="#172c73"/></linearGradient>
+  <linearGradient id="pants" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#34384a"/><stop offset="1" stop-color="#141722"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7b9ff"/><stop offset=".58" stop-color="#a678e5"/><stop offset="1" stop-color="#6946a3"/></linearGradient>
+</defs>
+<g stroke="#10131b" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="120" cy="242" rx="74" ry="10" fill="#000" opacity=".28" stroke="none"/>
+<!-- sword and sheath -->
+<path d="M73 103 53 197" stroke="#5c4330" stroke-width="13"/><path d="M68 104 91 94" stroke="#d9c35b" stroke-width="7"/><path d="M54 194 48 221" stroke="#c8ccd6" stroke-width="7"/>
+<!-- rear arm -->
+<path d="M88 112 C69 117 57 130 51 147 L43 165 C39 175 47 182 56 177 L71 153 91 140Z" fill="url(#jacket)"/>
+<path d="M50 143 C40 137 29 139 23 147 C18 155 21 165 29 170 C37 175 46 171 51 162 L58 151Z" fill="url(#skin)"/>
+<!-- legs -->
+<path d="M112 163 C96 171 84 184 73 202 L53 228 77 241 103 211 126 183Z" fill="url(#pants)"/>
+<path d="M128 163 C144 171 156 184 167 202 L187 228 163 241 137 211 114 183Z" fill="url(#pants)"/>
+<path d="M76 222 52 218 36 232 42 243 81 241Z M164 222 188 218 204 232 198 243 159 241Z" fill="#d9dbe3"/>
+<path d="M54 219 77 228 M186 219 163 228" fill="none" stroke="#8655c9"/>
+<!-- torso -->
+<path d="M89 104 C77 111 72 123 73 140 L82 172 C95 181 106 185 120 185 C134 185 145 181 158 172 L167 140 C168 123 163 111 151 104 L138 98 102 98Z" fill="url(#jacket)"/>
+<path d="M102 101 120 118 138 101 147 108 137 144 103 144 93 108Z" fill="#151b2b"/>
+<path d="M87 161 C108 170 132 170 153 161 L151 179 C132 187 108 187 89 179Z" fill="#7a5537"/>
+<path d="M120 119 120 181 M97 148 88 166 M143 148 152 166" fill="none" opacity=".55"/>
+<!-- front arm -->
+<path d="M153 112 C172 117 184 129 190 146 L196 164 C199 174 191 182 182 177 L167 153 149 140Z" fill="url(#jacket)"/>
+<path d="M191 143 C202 137 212 140 218 148 C223 156 220 166 212 171 C203 176 194 171 189 163 L181 151Z" fill="url(#skin)"/>
+<path d="M218 150 C221 154 220 160 217 163 M210 145 C214 152 213 160 208 166 M202 145 C205 152 204 160 199 164" fill="none"/>
+<!-- neck/head -->
+<path d="M107 101 108 88 132 88 133 101 120 113Z" fill="url(#skin)"/>
+<path d="M88 48 C90 28 103 17 120 17 C137 17 151 29 153 49 L149 78 C147 96 135 108 120 108 C105 108 93 96 91 78Z" fill="url(#skin)"/>
+<path d="M91 57 C80 52 76 66 82 76 C85 81 89 83 94 80 M149 57 C160 52 164 66 158 76 C155 81 151 83 146 80" fill="url(#skin)"/>
+<!-- hair -->
+<path d="M92 58 82 39 98 44 96 22 111 35 120 7 129 36 148 17 141 43 162 30 151 59 140 47 135 64 125 42 118 65 109 42 101 64Z" fill="url(#hair)"/>
+<path d="M104 34 118 12 M132 35 146 22 M145 43 157 35" stroke="#e7d5ff" fill="none" opacity=".65"/>
+<!-- face looking right -->
+<path d="M96 65 C104 60 112 61 118 66 M144 65 C136 60 128 61 122 66" fill="none"/>
+<path d="M97 70 C104 66 111 66 117 71 C111 76 104 76 97 70Z M143 70 C136 66 129 66 123 71 C129 76 136 76 143 70Z" fill="#fff"/>
+<circle cx="112" cy="71" r="2.3" fill="#2d2351" stroke="none"/><circle cx="134" cy="71" r="2.3" fill="#2d2351" stroke="none"/>
+<path d="M120 74 116 84 122 84 M108 94 C116 99 126 99 133 92" fill="none"/>
+<path d="M108 90 C115 92 126 92 133 89" stroke="#8e3f35" fill="none"/>
+<!-- capsule patch -->
+<circle cx="144" cy="125" r="7" fill="#f4efdf"/><path d="M140 125h8M144 121v8" stroke="#3056a9" stroke-width="2"/>
+</g>
+</svg>
