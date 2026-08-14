@@ -1,10 +1,18 @@
 {
-  "name": "dragon-ball-arena-final-facing-fixed",
-  "displayName": "Dragon Ball Arena \u2014 Final Facing Fixed",
+  "name": "dragon-ball-arena",
+  "displayName": "Dragon Ball Arena — Final Facing Fixed",
   "description": "Compact animated VS Code arena with inward-facing Goku, Vegeta, Broly, Gohan, Frieza, Trunks and Piccolo fighters, smooth battle animations, HP, rounds and effects.",
   "version": "2.1.0",
-  "publisher": "local-dev",
+  "publisher": "awais4212",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awais4212/vscode-dragon-ball-arena.git"
+  },
+  "homepage": "https://github.com/awais4212/vscode-dragon-ball-arena#readme",
+  "bugs": {
+    "url": "https://github.com/awais4212/vscode-dragon-ball-arena/issues"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -23,7 +31,7 @@
           "type": "webview",
           "id": "dragonBallArena.view",
           "name": "Dragon Ball Arena",
-          "icon": "media/dragonball.svg",
+          "icon": "media/dragonball.png",
           "visibility": "visible"
         }
       ]
@@ -50,6 +58,7 @@
     "watch": "tsc -w -p ./"
   },
   "devDependencies": {
+    "@vscode/vsce": "^3.9.2",
     "typescript": "^5.9.2"
   }
 }

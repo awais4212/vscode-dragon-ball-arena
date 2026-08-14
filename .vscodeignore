@@ -1,0 +1,10 @@
+.vscode/**
+src/**
+types/**
+csharp-reference/**
+**/*.ts
+**/*.map
+node_modules/**
+**/*.svg
+*.zip
+*.vsix
