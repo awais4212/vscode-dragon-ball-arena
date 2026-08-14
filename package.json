@@ -1,9 +1,10 @@
 {
   "name": "dragon-ball-arena",
-  "displayName": "Dragon Ball Arena — Final Facing Fixed",
+  "displayName": "Dragon Ball Arena",
   "description": "Compact animated VS Code arena with inward-facing Goku, Vegeta, Broly, Gohan, Frieza, Trunks and Piccolo fighters, smooth battle animations, HP, rounds and effects.",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "publisher": "awais4212",
+  "icon": "media/marketplace-icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,7 +32,7 @@
           "type": "webview",
           "id": "dragonBallArena.view",
           "name": "Dragon Ball Arena",
-          "icon": "media/dragonball.png",
+          "icon": "media/marketplace-icon.png",
           "visibility": "visible"
         }
       ]
